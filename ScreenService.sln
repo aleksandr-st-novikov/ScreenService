@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenService", "ScreenService\ScreenService.csproj", "{4633D7FD-FFED-4CC7-A6E7-ED03D64EEA05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenForm", "ScreenForm\ScreenForm.csproj", "{8C3BE0AB-7FEE-4D36-9C5C-A9B917D9F3BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D71FECBE-63AB-4E63-903E-00E594833FF0} = {D71FECBE-63AB-4E63-903E-00E594833FF0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D71FECBE-63AB-4E63-903E-00E594833FF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,14 @@ Global
 		{4633D7FD-FFED-4CC7-A6E7-ED03D64EEA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4633D7FD-FFED-4CC7-A6E7-ED03D64EEA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4633D7FD-FFED-4CC7-A6E7-ED03D64EEA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3BE0AB-7FEE-4D36-9C5C-A9B917D9F3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3BE0AB-7FEE-4D36-9C5C-A9B917D9F3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3BE0AB-7FEE-4D36-9C5C-A9B917D9F3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3BE0AB-7FEE-4D36-9C5C-A9B917D9F3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71FECBE-63AB-4E63-903E-00E594833FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71FECBE-63AB-4E63-903E-00E594833FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71FECBE-63AB-4E63-903E-00E594833FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71FECBE-63AB-4E63-903E-00E594833FF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
